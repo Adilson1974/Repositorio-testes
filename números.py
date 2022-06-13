@@ -1,0 +1,6 @@
+n1 = int(input('Digite um numero:'))
+n2 = int(input('Digite outro numero:'))
+print('A subtração de {} menos {} é igual a: {}'.format(n1, n2, (n1 - n2)))
+print('A multiplicação de {} vezes {} é igual a: {}'.format(n1, n2, (n1 * n2)))
+print('A divisão entre {} e {} é igual a: {:.0f}'.format(n1, n2, (n1 / n2)))
+print('O dobro do resultado da soma é: {}'.format((n1 + n2) * 2))
